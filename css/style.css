@@ -1,0 +1,107 @@
+body{
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+	align-items: center;
+}
+.header .logo{
+	align-items: center;
+	width: 100%;
+}
+.header .logo img{
+	width:150px;
+	height: 80px;
+}
+.navbar{
+	background-color: teal;
+	width: 100%;
+	height: 60px;
+	display: inline-block;
+}
+.navbar .container{
+	float: right;
+	display: inline-block;
+	margin-top: 10px;
+}
+.navbar .login{
+	width: 70px;
+	height: 30px;
+	float: left;
+	border:1px solid #fff;
+	margin-right:  20px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.navbar .login:hover{
+	background-color: navy;
+	font-color: rgb(0,0,0);
+	cursor: pointer;
+}
+.navbar .signup{
+	width: 70px;
+	height: 30px;
+	float: left;
+	border:1px solid #fff;
+	margin-right:  10px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.navbar .signup:hover{
+	background-color: navy;
+	font-color: rgb(0,0,0);
+	cursor: pointer;
+}
+.navbar a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+	padding-left: 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+.hero{
+	width: 100%;
+	height: 350px;
+	text-align: center;
+}
+.hero .hero-img img{
+	width: 100%;
+	height: 350px;
+}
+.hero .img-extension{
+	margin-top: -350px;
+}
+.hero .img-extension .hero-text{
+	font-size: 3em;
+	color: #fff;
+	font-weight: bold;
+	width: 440px;
+	margin-left: 450px;
+}
+.hero .img-extension .hero-btn{
+	display:inline-block;
+	color:#fff;
+	font-weight: bold;
+}
+.hero .img-extension .hero-btn .package{
+	float: left;
+	width:150px;
+	border:1px solid teal;
+	color: teal;
+}
+.hero .img-extension .hero-btn .order{
+	float: left;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 150px;
+	border:1px solid teal;
+	background-color: teal;
+}
